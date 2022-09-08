@@ -1,0 +1,17 @@
+micronaut:
+  application:
+    name: mnNews
+  server:
+    port: 3000
+  caches:
+    articles:
+      charset: 'UTF-8'
+netty:
+  default:
+    allocator:
+      max-order: 3
+newsapi:
+  apikey: ca14d780828445c18e354d1f38bc8420
+github:
+  organization: micronaut-projects
+  repo: micronaut-core
